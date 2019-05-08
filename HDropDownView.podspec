@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.authors      = { 'vvho' => 'wenzhou.1991@163.com'}
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/vivihu/HDropDownView.git", :tag => s.version }
-  s.source_files = 'HDropDownView', 'HDropDownView/**/*.{h,m}'
+  s.source_files = 'HDropDownView', 'HDropDownView/**/*.swift'
   s.requires_arc = true
 end
